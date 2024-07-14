@@ -19,15 +19,25 @@
         <div class="container__conteudo">
             <div class="container__informacoes">
                 <div class="container__texto">
-                    <h1></h1>
-                    <p class="texto__paragrafo"></p>
+                    <div class="chutedonumero">
+                        <p id="chute1" class="texto__paragrafo">-</p>
+                        <p id="chute2" class="texto__paragrafo">-</p>
+                        <p id="chute3" class="texto__paragrafo">-</p>
+                        <p id="chute4" class="texto__paragrafo">-</p>
+                        <p id="chute5" class="texto__paragrafo">-</p>
+                    </div>
+                    <h1 id="titulo"></h1>
+                    <p class="texto__paragrafo" id="paragrafo"></p>
                 </div>
                 <input type="number" min="1" max="10" class="container__input">
                 <div class="chute container__botoes">
                     <button onclick="verificarChute()" class="container__botao">Chutar</button>
                     <button onclick="reiniciarJogo()" id="reiniciar" class="container__botao" disabled>Novo jogo</button>
                 </div>
-                <p id="ultimo"></p>
+                <br>
+                <p id="numerochutes" class="texto__paragrafo"></p>
+                <br>
+                <p id="ultimo" class="texto__paragrafo">As ultimas pessoas que acertaram:</p>
             </div>
             <img src="./img/ia.png" alt="Uma pessoa olhando para a esquerda" class="container__imagem-pessoa" />
         </div>

@@ -1,38 +1,40 @@
-let numeroLimite = 10;
+let numeroLimite = 100;
 let listaDeNumerosSorteados = [];
 let numeroSecreto = gerarnNumeroAleatorio();
 let tentativas = 1;
 let listaDeQuemAcertou = [];
+let numeroLacado = [];
 
 function exibirTextoNaTela(tag, texto) {
-    let campo = document.querySelector(tag);
+    let campo = document.getElementById(tag);
     campo.innerHTML = texto;
     // responsiveVoice.speak(texto, 'Brazilian Portuguese Female', {rate:1.2});
 }
 
 function exibirMensagemInicial() {
-    exibirTextoNaTela('h1', 'Jogo do número secreto');
-    exibirTextoNaTela('p', `Escolha um numero entre 1 e ${numeroLimite}`);
+    exibirTextoNaTela('titulo', 'Jogo do número secreto');
+    exibirTextoNaTela('paragrafo', `Escolha um numero entre 1 e ${numeroLimite}`);
 }
 
 exibirMensagemInicial()
 
 function verificarChute() {
     let chute = document.querySelector('input').value;
-
+    listaDeNumerosSorteados.push(chute);
+    document.getElementById("numerochutes").innerHTML = chute;
 
     if (chute == numeroSecreto) {
-        exibirTextoNaTela('h1', 'Acertou');
+        exibirTextoNaTela('titulo', 'Acertou');
         let palavratentativas = tentativas > 1 ? 'tentativas' : 'tentativa'
         let mensagemTentativas = `Você descobriu um numero secreto com ${tentativas} ${palavratentativas}!`;
-        exibirTextoNaTela('p', mensagemTentativas);
+        exibirTextoNaTela('paragrafo', mensagemTentativas);
         document.getElementById('reiniciar').removeAttribute('disabled')
         quemAcertou()
     } else {
         if (chute > numeroSecreto) {
-            exibirTextoNaTela('p', 'O numero secreto é menor');
+            exibirTextoNaTela('paragrafo', 'O numero secreto é menor ⬇️');
         } else {
-            exibirTextoNaTela('p', 'O numero secreto é maior');
+            exibirTextoNaTela('paragrafo', 'O numero secreto é maior ⬆️');
         }
         // tentativas = tentativas + 1;
         tentativas++;
@@ -72,5 +74,5 @@ function reiniciarJogo() {
 function quemAcertou() {
     let quemacertou = prompt('Quem é que acertou?')
     listaDeQuemAcertou.push(quemacertou)
-    document.getElementById('ultimo').innerHTML = listaDeQuemAcertou;
+    document.getElementById('ultimo').innerHTML = `As ultimas pessoas que acertaram: ${listaDeQuemAcertou}`;
 }
