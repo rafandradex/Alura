@@ -1,0 +1,7 @@
+img {
+    display: none;
+}
+
+button:active~img {
+    display: block;
+}

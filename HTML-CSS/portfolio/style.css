@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --cor-1: #22D4FD;
+
+    --font-1: "Montserrat", sans-serif;
+    --font-2: "Krona One", sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: black;
+    color: white;
+}
+
+header {
+    padding: 2% 0 0 15%;
+}
+
+header nav {
+    display: flex;
+    gap: 80px;
+}
+
+header a {
+    font-family: var(--font-1);
+    font-weight: 600;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: var(--cor-1);
+}
+
+.apresentacao {
+    padding: 8% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 82px;
+}
+
+.titulo-destaque {
+    color: var(--cor-1);
+}
+
+.apresentaca__conteudo {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 50%;
+}
+
+.apresentaca__conteudo__titulo {
+    font-family: var(--font-2);
+    font-size: 2.25rem;
+}
+
+.apresentaca__conteudo__texto {
+    font-size: 1.5rem;
+    font-family: var(--font-1);
+}
+
+.apresentaca__links {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.apresentaca__links > h2 {
+    font-family: var(--font-2);
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+.apresentaca__links > a {
+    font-family: var(--font-1);
+
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    border: 2px solid var(--cor-1);
+    font-size: 1.5rem;
+    width: 50%;
+    text-align: center;
+    border-radius: 8px;
+    padding: 21.5px 0;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+
+.apresentaca__links > a:hover {
+    background-color: #272727;
+}
+
+main > img {
+    width: 50%;
+}
+
+footer {
+    font-family: var(--font-1);
+    font-size: 1.5rem;
+    background-color: var(--cor-1);
+    color: black;
+    padding: 24px;
+    text-align: center;
+    font-weight: 400;
+}
+
+@media (max-width: 1200px) {
+    .apresentacao {
+        flex-direction: column-reverse;
+        padding: 5%;
+    }
+    header {
+        padding: 10%;
+    }
+
+    header nav {
+        justify-content: center;
+
+    }
+    .apresentaca__conteudo {
+        width: auto;
+    }
+}
