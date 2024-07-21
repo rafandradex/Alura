@@ -1,39 +1,30 @@
-![Calmaria Spa](./assets/thumbnail.png)
+![Imagem de capa escrito acessibilidade web manipulando WAI-ARIA com javascript, curso de acessibilidade com javascript](./thumbnail.png)
+
+![](https://img.shields.io/github/license/alura-cursos/android-com-kotlin-personalizando-ui)
 
 # Calmaria Spa
 
-A Calmaria Spa é um empresa de bem estar e saúde. Nesse momento, temos o código inicial da sua landing page, onde vamos encontrar pontos de melhoria para tornar o projeto acessível a todas as pessoas usuárias.
+Uma aplicação para manipulação de elementos interativos como menu com submenus, modais e acordeão com foco em acessibilidade.
 
-<img src="./assets/screenshot.png" alt="Calmaria Spa" width="50%">
-
+![screenshot da aplicação](./screenshot-calmaria-spa.png)
 
 ## 🔨 Funcionalidades do projeto
 
-Nesse momento, nós temos a página que foi idealizada como entrega do time de desenvolvimento.
-
-Durante o curso, nós vamos analisar toda a estrutura do HTML e refatorar os pontos necessários do projeto.
-O desafio é encontrar pontos de melhoria na semântica do código HTML, para tornar o projeto Calmaria Spa acessível para todas as pessoas usuárias. 
-
-O [Figma dessa aplicação você encontra aqui](https://www.figma.com/file/1pDTUXo7ovT6zlE64Zw509/Calmaria-Spa--%7C-Forma%C3%A7%C3%A3o-Acessibilidade?type=design&node-id=98-1263&mode=design&t=iIe3hZrzPEvVEi0o-0).
+O App é uma página onde até o momento todos os elementos são somente visuais. Nela possui um menu de navegação com submenu, modal para se inscrever e ganhar desconto, modal para entrar em contato e um acordeão com as perguntas mais frequentes, todos estes elementos serão interativos utilizando JavaScript.
 
 ## ✔️ Técnicas e tecnologias utilizadas
 
-Se liga nessa lista de tudo que usaremos nesse curso:
+Durante esse curso utilizaremos:
 
-- `HTML`
-- `CSS`
-- `Acessibilidade Web`
 - `Figma`
+- `JavaScript`
+- `HTLM`
+- `CSS`
 
-E muito mais!
+## 📁 Link do Figma
+
+Você pode [acessar o figma do projeto aqui](https://www.figma.com/file/1pDTUXo7ovT6zlE64Zw509/Calmaria-Spa--%7C-Forma%C3%A7%C3%A3o-Acessibilidade?type=design&node-id=1289%3A1086&mode=dev).
 
 ## 🛠️ Abrir e rodar o projeto
 
-Para abrir e rodar o projeto, utilize um editor de código de sua escolha.
-
-Depois, abra o projeto no seu navegador.
-
-## 📚 Mais informações do curso
-
-O Calmaria Spa é uma empresa fictícia utilizada nesse curso da Alura.
-A ideia principal desse curso é evoluir ainda mais os conhecimentos em Acessibilidade Web com foco em CSS. 
+Você pode abrir uma página o `index.html`, utilizando o VSCode com a extensão `Live Server` para visualização e atualização automáticas ou abra o arquivo `index.html` diretamente no navegador e atualize manualmente após alterações. Ambos os métodos exibem a página no navegador.
