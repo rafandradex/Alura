@@ -6,6 +6,7 @@ Principal: Front end
 3. Versionamento de Código (Git)
 4. Frameworks Front-End:
    - React
+   - Vue
    - Angular
 5. Gerenciamento de Estado:
    - Redux (para React)

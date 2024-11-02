@@ -1,0 +1,269 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background: linear-gradient(180deg, #E8F5C8 0%, #FFFFFF 96.87%);
+  padding: 2Rem;
+}
+header nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.6Rem;
+}
+header nav .linha {
+  border-top: 1px black solid;
+  width: 80%;
+}
+header nav ul {
+  display: inline-flex;
+  gap: 2Rem;
+}
+header nav ul li {
+  list-style-type: none;
+}
+header nav ul a {
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1Rem;
+  color: #0C0421;
+  font-weight: 500;
+}
+header nav ul a:hover {
+  font-weight: bold;
+}
+header #home {
+  max-width: 1040px;
+  margin: 0 auto;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header #home .textos-home {
+  max-width: 464px;
+}
+header #home .textos-home h1 {
+  font-size: 42px;
+  color: #0C0421;
+  margin-bottom: 2Rem;
+  font-family: "Krona One", sans-serif;
+}
+header #home .textos-home h1 span {
+  color: #4E75FF;
+}
+header #home .textos-home button {
+  font-family: "Montserrat", sans-serif;
+  font-size: 22px;
+  padding: 24px;
+  border-radius: 40px;
+  border: none;
+  background-color: #CAD4FA;
+  color: white;
+  width: 280px;
+  height: 80px;
+}
+header #home .textos-home button:hover {
+  background-color: #4E75FF;
+}
+header #home .img-home {
+  max-width: 474px;
+}
+header #home .img-home img {
+  width: 100%;
+}
+
+#nosso-espaco {
+  margin: 0 auto;
+  width: 80%;
+}
+#nosso-espaco .detalhes {
+  width: 100%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 2rem;
+  padding: 2rem 0;
+}
+#nosso-espaco .detalhes .imgs-espaco, #nosso-espaco .detalhes .espaco-textos {
+  max-width: 500px;
+}
+#nosso-espaco .detalhes .titulo {
+  font-family: "Krona One", sans-serif;
+  font-size: 2Rem;
+  color: #4E75FF;
+  font-weight: 500;
+}
+#nosso-espaco .detalhes .infos {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2Rem;
+  color: #0C0421;
+}
+#nosso-espaco .detalhes .espaco-textos .separador {
+  width: 100%;
+}
+#nosso-espaco .detalhes:nth-child(2) {
+  flex-direction: row-reverse;
+}
+
+#servico {
+  background: linear-gradient(180deg, #E8F5C8 0%, #FFFFFF 96.87%);
+  padding: 5Rem 0;
+}
+#servico .cards {
+  margin: 0 auto;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  gap: 1.5Rem;
+}
+#servico .cards .card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1Rem;
+  padding: 1Rem 1.5Rem;
+  border: 1px white solid;
+  border-radius: 3Rem;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.7) 0%, rgba(202, 212, 250, 0.3) 100%);
+  text-align: center;
+}
+#servico .cards .card .card-titulo {
+  font-family: "Krona One", sans-serif;
+  font-size: 1.6Rem;
+  color: #0C0421;
+}
+#servico .cards .card .card-texto {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2Rem;
+  color: #0C0421;
+}
+
+#desconto {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+#desconto h4 {
+  font-family: "Krona One", sans-serif;
+  font-size: 1.6Rem;
+  color: #0C0421;
+}
+#desconto p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2Rem;
+  color: #0C0421;
+}
+#desconto .input-btn {
+  width: 790px;
+  height: 65px;
+  border: 1px #4E75FF solid;
+  border-radius: 65px;
+  margin: 0 auto;
+  display: inline-flex;
+}
+#desconto .input-btn input {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2Rem;
+  color: #0C0421;
+  width: 513.5px;
+  border: none;
+  outline: none;
+  margin-left: 2Rem;
+}
+#desconto .input-btn button {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2Rem;
+  color: white;
+  width: 276.5px;
+  background-color: #4E75FF;
+  border: none;
+  border-radius: 0 65px 65px 0;
+}
+
+#contatos {
+  margin: 0 auto;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  gap: 2Rem;
+}
+#contatos .contatos-imgs {
+  max-width: 50%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1.5Rem;
+  justify-content: space-around;
+}
+#contatos .contatos-imgs img {
+  width: 48%;
+}
+#contatos .contatos-imgs img:nth-child(1) {
+  width: 100%;
+}
+#contatos .contatos-form {
+  max-width: 50%;
+  background: linear-gradient(180deg, #E8F5C8 0%, #FFFFFF 96.87%);
+  padding: 2rem 3rem;
+  border-radius: 2rem;
+}
+#contatos .contatos-form .titulo {
+  font-family: "Krona One", sans-serif;
+  font-size: 1.9Rem;
+  color: #4E75FF;
+}
+#contatos .contatos-form .infos, #contatos .contatos-form .inputs .form-group label {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2Rem;
+  color: #0C0421;
+}
+#contatos .contatos-form .inputs {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.5rem;
+}
+#contatos .contatos-form .inputs .form-group {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+#contatos .contatos-form .inputs .form-group label {
+  font-weight: bold;
+}
+#contatos .contatos-form .inputs .form-group input, #contatos .contatos-form .inputs .form-group textarea {
+  border-radius: 25px;
+  padding: 1rem;
+  border: none;
+}
+#contatos .contatos-form .inputs .btn {
+  border-radius: 25px;
+  padding: 1rem;
+  border: none;
+  background: #CAD4FA;
+  margin-top: 2rem;
+  width: 100%;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1Rem;
+  color: white;
+  transition: 0.3s;
+}
+#contatos .contatos-form .inputs .btn:hover {
+  background: #4E75FF;
+}
+
+footer {
+  background-color: #E8F5C8;
+  margin-top: 1rem;
+  padding: 1rem;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2Rem;
+  color: #0C0421;
+  text-align: center;
+}/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,72 @@
+@use '../abstract/variaveis';
+@use '../abstract/mixins';
+
+#contatos {
+    @include mixins.margem-central(80%);
+    display: flex;
+    justify-content: space-between;
+    gap: 2Rem;
+    .contatos-imgs {
+        max-width: 50%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 1.5Rem;
+        justify-content: space-around;
+        img {
+            width: 48%;
+            &:nth-child(1) {
+                width: 100%;
+            }
+        }
+    }
+    .contatos-form {
+        max-width: 50%;
+        background: variaveis.$gradiente-primario;
+        padding: 2rem 3rem;
+        border-radius: 2rem;
+        .titulo {
+            @include mixins.ff-fs-cl(variaveis.$ft-titulos, 1.9Rem, variaveis.$cor-secundaria);
+        }
+        .infos {
+            @include mixins.ff-fs-cl(variaveis.$ft-textos, 1.2Rem, variaveis.$cor-primaria);
+        }
+        .inputs {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 1.5rem;
+            .form-group {
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                gap: .5rem;
+                label {
+                    @extend .infos;
+                    font-weight: bold;
+                }
+                input {
+                    border-radius: 25px;
+                    padding: 1rem;
+                    border: none;
+                }
+                textarea {
+                    @extend input;
+                }
+            }
+            .btn {
+                border-radius: 25px;
+                padding: 1rem;
+                border: none;
+                background: variaveis.$cor-default;
+                margin-top: 2rem;
+                width: 100%;
+                @include mixins.ff-fs-cl(variaveis.$ft-textos, 1Rem, white);
+                transition: 0.3s;
+                &:hover {
+                background: variaveis.$cor-secundaria;
+                }
+            }
+        }
+    }
+}
