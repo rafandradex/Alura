@@ -1,0 +1,12 @@
+{
+    "nome": "Rafael",
+    "idade": 15,
+    "cpf": "23423423423",
+    "email": "rafaelag2008@email.com",
+    "telefones": ["963418757", "965547624"],
+    "endereco": {
+      "rua": "Rua do Rodrigo",
+      "numero": "4",
+      "complemento": "3DRT"
+    }
+  }
