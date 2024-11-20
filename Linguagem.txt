@@ -1,35 +1,53 @@
+Plano de Aprendizado de Desenvolvimento Web
 
-Principal: Front end
+Principal: Front-End
 
 1. HTML e CSS (✓)
-2. JavaScript
-3. Versionamento de Código (Git)
+
+2. Versionamento de Código (Git) (✓)
+
+3. JavaScript
+
 4. Frameworks Front-End:
    - React
    - Vue
    - Angular
+
 5. Gerenciamento de Estado:
    - Redux (para React)
    - NgRx (para Angular)
 
-Secundarios: Back end
+Secundário: Back-End
 
 6. Node.js
+
 7. Servidores e APIs:
    - Express.js
+
 8. Banco de Dados:
    - SQL (MySQL, PostgreSQL)
    - NoSQL (MongoDB)
+
 9. Autenticação e Autorização:
    - JWT
    - OAuth
 
-Extra:
+Extra
+
 10. DevOps Básico:
     - Docker
     - CI/CD
+
 11. SEO
+
 12. Segurança da Informação
+
 13. Práticas de Desenvolvimento Ágil:
     - Scrum
     - Kanban
+
+Links Úteis
+- https://www.alura.com.br/artigos/como-iniciar-estudos-no-front-end?utm_source=gnarus&utm_medium=timeline
+- https://cursos.alura.com.br/carreira-dev-full-stack-javascript-escola-programacao-1711659698345-p748330
+- https://cursos.alura.com.br/carreira-dev-back-end-node-js-javascript-no-back-end-escola-programacao-1711658583465-p748318
+

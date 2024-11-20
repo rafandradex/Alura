@@ -1,10 +1,10 @@
-const mesagemListaVazia = document.getElementById('mensagem-lista-vazia')
+const mensagemListaVazia = document.getElementById("mensagem-lista-vazia");
 
 export function verificarListaVazia(lista) {
-    if (lista.ChildElementCount === 0) {
-        mesagemListaVazia.style.display = "block";
+    console.log(lista);
+    if (lista.querySelectorAll("li").length === 0) {
+        mensagemListaVazia.style.display = "block";
     } else {
-        mesagemListaVazia.style.display = "none";
-        
+        mensagemListaVazia.style.display = "none";
     }
 }
