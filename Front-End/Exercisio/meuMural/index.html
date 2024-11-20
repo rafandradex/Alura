@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PETS</title>
+</head>
+<body>
+    <form id="pensamento-form">
+        <input type="hidden" id="pensamento-id" />
+        <label for="pensamento-especie">Especie</label>
+        <input 
+          type="text" 
+          id="pensamento-especie" 
+          placeholder="Insira a autoria ou fonte" 
+          required />
+
+          <label for="pensamento-nome">Nome</label>
+          <input 
+            type="text" 
+            id="pensamento-nome" 
+            placeholder="Insira a autoria ou fonte" 
+            required />
+
+            <label for="pensamento-raca">Raça</label>
+            <input 
+              type="text" 
+              id="pensamento-raca" 
+              placeholder="Insira a autoria ou fonte" 
+              required />
+        <div class="form-botoes">
+          <button 
+            type="submit" 
+            id="botao-salvar">
+            Adicionar
+          </button>
+          <button 
+            type="button" 
+            id="botao-cancelar">
+            Cancelar
+          </button>
+        </div>
+      </form>
+    <h1>Lista dos nossos animais</h1>
+    <ul id="nossosanimais">
+    </ul>
+    <script type="module" src="js/api.js"></script>
+    <script type="module" src="js/ui.js"></script>
+    <script type="module" src="js/main.js"></script>
+</body>
+</html>
