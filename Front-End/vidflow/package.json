@@ -1,0 +1,20 @@
+{
+  "name": "vidflow",
+  "version": "1.0.0",
+  "description": "![Imagem de capa do curso. O título é \"3519 - Node.js e terminal\" e o subtítulo é \"Dominando o ambiente de desenvolvimento front-end\".](./thumb.png)",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "json-server --watch backend/videos.json",
+    "checar-codigo": "eslint ."
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^9.15.0",
+    "prettier": "3.3.3"
+  },
+  "dependencies": {
+    "axios": "^1.7.7"
+  }
+}

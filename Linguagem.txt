@@ -8,13 +8,15 @@ Principal: Front-End
 
 3. JavaScript
 
-4. Frameworks Front-End:
+4. TypeScript
+
+5. Frameworks Front-End:
    - Bootstrap
    - React
    - Angular
    - Vue
 
-5. Gerenciamento de Estado:
+6. Gerenciamento de Estado:
    - Redux (para React)
    - NgRx (para Angular)
 
