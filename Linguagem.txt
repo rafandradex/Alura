@@ -33,9 +33,6 @@ Secundário: Back-End
 
 1. Node.js
 
-2. Servidores e APIs:
-   - Express.js
-
 3. Banco de Dados:
    - SQL (MySQL, PostgreSQL)
    - NoSQL (MongoDB)
