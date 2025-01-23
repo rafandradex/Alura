@@ -1,0 +1,18 @@
+.lista-ordenacao {
+    display: flex;
+    justify-content: center;
+    gap: 1.5em;
+    list-style-type: none;
+    margin-top: 1em;
+}
+
+.lista-ordenacao__link {
+    font-size: 22px;
+    text-decoration: none;
+    color: var(--cinza-medio);
+}
+
+.lista-ordenacao__link--ativo {
+    color: var(--verde-destaque);
+    text-decoration: underline;
+}
