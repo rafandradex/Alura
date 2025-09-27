@@ -1,72 +1,65 @@
-Plano de Aprendizado de Desenvolvimento Web
+Plano de Aprendizado - Full Stack + Jogos (Checklist)
 
-Principal: Front-End
+==========================
+1️⃣ FRONT-END (Principal)
+==========================
+[✓] 1. HTML
+[✓] 2. CSS
+[✓] 3. JavaScript
+[ ] 4. React (prioridade)
+[ ] 5. Design básico:
+     - Figma
+     - Photoshop
+     - Adobe XD
+[ ] 6. TypeScript (após React + JS)
+[ ] 7. Frameworks opcionais:
+     - Angular
+     - Vue
+[ ] 8. Gerenciamento de Estado:
+     - Redux (React)
+     - NgRx (Angular, opcional)
 
-1. HTML (✓)
+==========================
+2️⃣ BACK-END (Secundário)
+==========================
+[ ] 9. Node.js
+[ ] 10. Banco de Dados:
+      - SQL: MySQL/PostgreSQL
+      - NoSQL: MongoDB
+[ ] 11. Autenticação e Autorização:
+      - JWT
+      - OAuth
+[ ] 12. Python (scripts, backend, automação)
+[ ] 13. Java (opcional, sistemas corporativos e jogos)
+[ ] 14. PHP (depois, complementar com a escola)
 
-2. CSS (✓)
+==========================
+3️⃣ SEGURANÇA E DEVOPS
+==========================
+[ ] 15. Desenvolvimento Seguro (web e jogos online)
+[ ] 16. Segurança da Informação
+[ ] 17. DevOps básico:
+      - Docker
+      - CI/CD
 
-3. JavaScript (✓)
+==========================
+4️⃣ JOGOS (Extra)
+==========================
+[ ] 18. C / C++ fundamentos
+[ ] 19. Unity / C# para protótipos
+[ ] 20. Game Design básico (física, lógica, estruturas de dados)
 
-4. TypeScript
+==========================
+5️⃣ PRÁTICAS E OTIMIZAÇÃO
+==========================
+[ ] 21. Práticas de Desenvolvimento Ágil:
+      - Scrum
+      - Kanban
+[ ] 22. SEO (otimização de sites)
 
-5. Frameworks Front-End:
-   - Bootstrap
-   - React
-   - Angular
-   - Vue
-
-6. Gerenciamento de Estado:
-   - Redux (para React)
-   - NgRx (para Angular)
-
-Design: 
-
-1. Figma
-
-2. Photoshop
-
-3. Adobe.XD
-
-
-Secundário: Back-End
-
-1. Node.js
-
-3. Banco de Dados:
-   - SQL (MySQL, PostgreSQL)
-   - NoSQL (MongoDB)
-
-4. Autenticação e Autorização:
-   - JWT
-   - OAuth
-
-5. Python
-
-6. Java
-
-7. PHP
-
-Extra
-
-1. DevOps Básico:
-    - Docker
-    - CI/CD
-
-2. SEO
-
-3. Segurança da Informação
-
-4. Práticas de Desenvolvimento Ágil:
-    - Scrum
-    - Kanban
-
-5. Desenvolvimento Seguro
-
-
-
-Links Úteis
+==========================
+LINKS ÚTEIS
+==========================
 - https://www.alura.com.br/artigos/como-iniciar-estudos-no-front-end?utm_source=gnarus&utm_medium=timeline
 - https://cursos.alura.com.br/carreira-dev-full-stack-javascript-escola-programacao-1711659698345-p748330
 - https://cursos.alura.com.br/carreira-dev-back-end-node-js-javascript-no-back-end-escola-programacao-1711658583465-p748318
-
