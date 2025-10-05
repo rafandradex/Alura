@@ -1,0 +1,18 @@
+.button-field {
+  margin: 0 auto;
+  border: none;
+  background: rgba(23, 217, 177, 1);
+  border-radius: 8px;
+  padding: 8px 16px;
+
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 120%;
+  color: #212121;
+
+}
+
+.button-field:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
