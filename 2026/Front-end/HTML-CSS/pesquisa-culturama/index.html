@@ -14,8 +14,8 @@
     <main>
         <section>
             <form action="" method="get">
-                <fieldset>
-                    <!-- DADOS PESSOAIS -->
+                <!-- DADOS PESSOAIS -->
+                <!-- <fieldset>
                     <legend>Dados Pessoais</legend>
                     <label for="userName">Nome</label>
                     <input type="text" name="userName" required>
@@ -35,6 +35,50 @@
                     <label for="userImage">Upload de Foto</label>
                     <input type="file" accept="image/*" name="userImage">
                     <br>
+                </fieldset> -->
+                <fieldset>
+                    <legend>Perfil</legend>
+                    <p>Gênero:</p>
+                    <input type="radio" name="userGender" value="Masculino">
+                    <label for="userGender">Masculino</label>
+                    <input type="radio" name="userGender" value="Feminino">
+                    <label for="userGender">Feminino</label>
+                    <br>
+                    <label for="maritalStatus">Estado Civil</label>
+                    <select name="maritalStatus">
+                        <option value="notInformed">Selecione...</option>
+                        <option value="casado">Casado</option>
+                        <option value="solteiro">Solteiro</option>
+                        <option value="divorciado">Divorciado</option>
+                        <option value="viuvo">Viuvo</option>
+                    </select>
+                    <br>
+                    <label for="userDistrict">Distrito</label>
+                    <select name="userDistrict">
+                        <option value="aveiro">Aveiro</option>
+                        <option value="beja">Beja</option>
+                        <option value="braga">Braga</option>
+                        <option value="bragança">Bragança</option>
+                        <option value="castelobranco">Castelo Branco</option>
+                        <option value="coimbra">Coimbra</option>
+                        <option value="evora">Évora</option>
+                        <option value="faro">Faro</option>
+                        <option value="guarda">Guarda</option>
+                        <option value="leiria">Leiria</option>
+                        <option value="lisboa">Lisboa</option>
+                        <option value="portalegre">Portalegre</option>
+                        <option value="porto">Porto</option>
+                        <option value="madeira">Região Autónoma da Madeira</option>
+                        <option value="acores">Região Autónoma dos Açores</option>
+                        <option value="santarem">Santarém</option>
+                        <option value="setubal">Setúbal</option>
+                        <option value="vianadocastelo">Viana do Castelo</option>
+                        <option value="vilareal">Vila Real</option>
+                        <option value="viseu">Viseu</option>
+                    </select>
+                    <br>
+                    <label for="userCity">Cidade</label>
+                    <input type="text" name="userCity">
                 </fieldset>
                 <button type="submit">Enviar</button>
             </form>
