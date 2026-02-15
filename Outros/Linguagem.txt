@@ -3,14 +3,13 @@ Plano de Aprendizado - Full Stack + Jogos (Checklist)
 ==========================
 1️⃣ FRONT-END (Principal)
 ==========================
-[✓] 1. HTML
-[✓] 2. CSS
-[✓] 3. JavaScript
-[ ] 4. React (prioridade)
-[ ] 5. Design básico:
-     - Figma
-     - Photoshop
-     - Adobe XD
+[✓] 1. HTML5 / CSS3
+[✓] 2. JavaScript ES6+
+[ ] 3. React.js
+[ ] 4. TypeScript
+[ ] 5. Design UI/UX:
+     - Foco principal: Figma (Padrão de mercado)
+     - Secundário: Photoshop (Para texturas e assets de jogos)
 [ ] 6. TypeScript (após React + JS)
 [ ] 7. Frameworks opcionais:
      - Angular
