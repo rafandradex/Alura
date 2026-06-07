@@ -1,0 +1,26 @@
+.card {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  background-color: var(--neutral-header);
+  color: var(--neutral-text);
+  padding: 16px;
+  border-radius: 24px 24px 0 0;
+  font-weight: 700;
+  font-size: 20;
+  line-height: 120%;
+  text-align: center;
+}
+
+.body {
+  padding: 32px 16px;
+  color: var(--neutral-text);
+  border-radius: 0 0 24px 24px;
+  background-color: var(--neutral-surface);
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

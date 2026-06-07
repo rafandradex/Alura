@@ -1,5 +1,3 @@
-Plano de Aprendizado - Full Stack + Jogos (Checklist)
-
 ==========================
 1️⃣ FRONT-END (Principal)
 ==========================
@@ -62,3 +60,27 @@ LINKS ÚTEIS
 - https://www.alura.com.br/artigos/como-iniciar-estudos-no-front-end?utm_source=gnarus&utm_medium=timeline
 - https://cursos.alura.com.br/carreira-dev-full-stack-javascript-escola-programacao-1711659698345-p748330
 - https://cursos.alura.com.br/carreira-dev-back-end-node-js-javascript-no-back-end-escola-programacao-1711658583465-p748318
+
+
+==========================
+Lista da carreira
+==========================
+
+1 - Desenvolvimento Front-End React_ 
+2 - Desenvolvimento Back-End Node.js_
+3 - Aprender C (ele n tem carreira mas ir atras dos cursos)
+4 - AppSec: Desenvolvimento Seguro de Aplicações_
+5 - Platform Engineering_/Site Reliability Engineering_
+6 - Engenharia de Dados_
+7 - Engenharia de IA_
+
+
+1 - Desenvolvimento Front-End React_ 
+2 - Desenvolvimento Back-End Node.js_
+3 - Projetos Full Stack
+4 - C + algoritmos
+5 - AppSec: Desenvolvimento Seguro de Aplicações_
+6 - Platform Engineering_/Site Reliability Engineering_
+7 - Desenvolvimento Back-End Python_
+8 - Engenharia de Dados_
+9 - Engenharia de IA_
