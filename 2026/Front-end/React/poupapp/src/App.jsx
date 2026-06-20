@@ -45,7 +45,9 @@ function App() {
               </Card>
               <Card>
                 <Card.Header>Minhas contas</Card.Header>
-                <Card.Body><Accounts /></Card.Body>
+                <Card.Body>
+                  <Accounts />
+                </Card.Body>
               </Card>
             </section>
           </div>
